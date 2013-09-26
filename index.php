@@ -55,7 +55,7 @@ function checkpassword() {
 	}
 }
 </script>
-<form action="index.php" method="post" onsubmit="javascript:check();">
+<form action="index.php" method="post" onsubmit="return check();">
 请输入密码:<input type="password" id="password1" name="password" /><br />
 请确认密码:<input type="password" id="password2" onblur="javascript:checkpassword();" /><span id="checkpassword"></span><br />
 请输入应用名:<input type="text" id="appname" name="appname"/><br />
